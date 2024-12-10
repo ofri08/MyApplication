@@ -52,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
                 });
 
                 builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         // Collect and display selected items
